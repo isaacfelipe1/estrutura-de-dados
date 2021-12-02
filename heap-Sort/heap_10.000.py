@@ -27,7 +27,7 @@ def heapSort(lista):
 
 #main
 comeco=time.time()
-lista = random.sample(range(1, 100001), 100000)
+lista = random.sample(range(1, 10001), 10000)
 numero_da_pilha= len(lista)
 for i in range(numero_da_pilha):
     print("%i" % lista[i]),

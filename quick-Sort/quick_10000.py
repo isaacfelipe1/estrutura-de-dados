@@ -20,7 +20,7 @@ def particao(b, inicio, final):
             b[i], b[inicio - 1] = b[inicio - 1], b[i]
     return inicio - 1
 comeco=time.time()
-lista = random.sample(range(1, 100001), 100000)
+lista = random.sample(range(1, 10001), 10000)
 print('lista aleatoria : ',lista)
 print("")
 print(' utilizando o QuickSort: ',quick(lista))
