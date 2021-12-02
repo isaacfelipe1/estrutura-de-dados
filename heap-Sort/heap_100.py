@@ -4,13 +4,13 @@ def heapify(lista, tamanho_da_pilha, i):
     maior_valor = i # Inicializar o maior como raiz
     esquerda = 2 * i + 1  # esquerda = 2*i + 1
     direita = 2 * i + 2  # direita = 2*i + 2
-    #Testando a númeração da esquerda
+    #Testando a númeração da direita.
     if esquerda < tamanho_da_pilha and lista[i] < lista[esquerda]:
         maior_valor = esquerda
     #Testando a númeração da direita
     if direita< tamanho_da_pilha and lista[maior_valor] < lista[direita]:
         maior_valor = direita
-    #para troca de valores
+    #para troca de valores se necessário.
     if maior_valor != i:
         lista[i], lista[maior_valor] = lista[maior_valor], lista[i] 
         heapify(lista, tamanho_da_pilha, maior_valor)
