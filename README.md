@@ -1,2 +1,1 @@
-# Isaac-Arlesson-Tailana- Victor
- Desafio sobre Linguagem de programação. 
+# Desafio sobre Linguagem de programação. 
